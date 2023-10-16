@@ -11,17 +11,17 @@ import base64
 #from github import Github
 #from github import Auth
 #Librairie pour utiliser google drive
-import os
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
+#import os
+#from pydrive.auth import GoogleAuth
+#from pydrive.drive import GoogleDrive
 
 
 #Initialisation pour google drive
-gauth = GoogleAuth()
-drive = GoogleDrive(gauth)
+#gauth = GoogleAuth()
+#drive = GoogleDrive(gauth)
 #Dossier contenant les fichiers upload/download de google drive
-folder = '1lmP2vJKEzZNwh4V2zTgMRFUcVlT6Bj-X'
-directory = "C:/Users/Bastien/bastienp7_api_streamlit/bastienp7_api-main/data_saved"
+#folder = '1lmP2vJKEzZNwh4V2zTgMRFUcVlT6Bj-X'
+#directory = "C:/Users/Bastien/bastienp7_api_streamlit/bastienp7_api-main/data_saved"
 #Fonctions pour upload/download fichier sur google drive
 # Upload files
 
