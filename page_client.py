@@ -100,7 +100,8 @@ def page_c (data_work, data_target) :
         str_id = str(id_client)
         files = {"file": str_id}
         # Envoi du fichier csv vers l'API
-        req = requests.post("http://127.0.0.1:5000/streamlit_predictproba", files=files)
+        #req = requests.post("http://127.0.0.1:5000/streamlit_predictproba", files=files)
+        req = requests.post("https://bastienp7-api-64085d97a29c.herokuapp.com/streamlit_predictproba", files=files)
         # Récupération des résultats de l'API
         resultat = req.json()
         score = resultat["predict_score"]
