@@ -1,4 +1,4 @@
-# dashboardp7
+# bastienp7_dashboard
 Folder contains files for dashboard
 
 Explication des fonctionnalités de l'API et du Dashboard réalisés pour l'entreprise Prêt à dépenser.
