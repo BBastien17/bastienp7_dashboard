@@ -158,7 +158,8 @@ def page_p (data_work) :
         f = open("conv_csv_data.csv", "r", encoding="utf-8")
         files = {"file": f}
         #Envoi du fichier csv vers l'API
-        req = requests.post("http://127.0.0.1:5000/streamlit_prediction", files=files)
+        #req = requests.post("http://127.0.0.1:5000/streamlit_prediction", files=files)
+        req = requests.post("https://bastienp7-api-64085d97a29c.herokuapp.com/streamlit_prediction", files=files)
         #Récupération des résultats de l'API
         resultat = req.json()
         rec = resultat["predictions"]
